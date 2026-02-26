@@ -31,7 +31,7 @@ export default function ChatPage() {
         {
           id: Date.now() + 1,
           role: "bot",
-          text: "I received your message. (Connect your API to respond here.)",
+          text: "I received your message. (Connect your API to respond here.",
         },
       ]);
     }, 1200);
