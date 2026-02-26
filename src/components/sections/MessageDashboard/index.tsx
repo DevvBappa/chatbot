@@ -16,16 +16,16 @@ type Props = {
 
 function BotAvatar() {
   return (
-    <div className="shrink-0 w-7 h-7 rounded-full bg-primary text-primary-foreground flex items-center justify-center">
-      <Bot size={14} />
+    <div className="shrink-0 w-15 h-15 rounded-full bg-primary text-primary-foreground flex items-center justify-center">
+      <Bot size={24} />
     </div>
   );
 }
 
 function UserAvatar() {
   return (
-    <div className="shrink-0 w-7 h-7 rounded-full bg-secondary text-secondary-foreground flex items-center justify-center">
-      <User size={14} />
+    <div className="shrink-0 w-15 h-15 rounded-full bg-secondary text-secondary-foreground flex items-center justify-center">
+      <User size={24} />
     </div>
   );
 }
